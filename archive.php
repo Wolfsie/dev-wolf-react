@@ -2,10 +2,10 @@
 <section id="content" role="main">
 <header class="header">
 <h1 class="entry-title"><?php 
-if ( is_day() ) { printf( __( 'Daily Archives: %s', 'dev-wolf-react' ), get_the_time( get_option( 'date_format' ) ) ); }
-elseif ( is_month() ) { printf( __( 'Monthly Archives: %s', 'dev-wolf-react' ), get_the_time( 'F Y' ) ); }
-elseif ( is_year() ) { printf( __( 'Yearly Archives: %s', 'dev-wolf-react' ), get_the_time( 'Y' ) ); }
-else { _e( 'Archives', 'dev-wolf-react' ); }
+if ( is_day() ) { printf( __( 'Daily Archives: %s', 'devWolfReact' ), get_the_time( get_option( 'date_format' ) ) ); }
+elseif ( is_month() ) { printf( __( 'Monthly Archives: %s', 'devWolfReact' ), get_the_time( 'F Y' ) ); }
+elseif ( is_year() ) { printf( __( 'Yearly Archives: %s', 'devWolfReact' ), get_the_time( 'Y' ) ); }
+else { _e( 'Archives', 'devWolfReact' ); }
 ?></h1>
 </header>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
