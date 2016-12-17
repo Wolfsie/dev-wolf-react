@@ -1,0 +1,19 @@
+{
+  "name": "dev-wolf-v2",
+  "version": "2.0.0",
+  "description": "Dev Wolf Theme in React with Material Design",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wolfsie/dev-wolf-react.git"
+  },
+  "author": "Amanda Muir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wolfsie/dev-wolf-react/issues"
+  },
+  "homepage": "https://github.com/Wolfsie/dev-wolf-react#readme"
+}
